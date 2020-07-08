@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+.greetings {
+    width: 1000px;
+    height: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60pt;
+    text-align: center;
+    display: inline-block;
+    color: black;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.subGreetings {
+    width: 50%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30pt;
+    text-align: center;
+    display: inline-block;
+    color: grey;
+    position: absolute;
+    top: 5%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+}
+
+.signupRef {
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 60pt;
+    color: #9f73e3;
+    text-align: left;
+}
+
+.signupRef:hover {
+    color: #8723ff;
+}
+
+.changelog {
+    width: 70px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    right: 0;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20pt;
+    color: royalblue;
+    text-align: center;
+}
+.changelog:hover {
+    color: grey;
+}
+
+.musicPageTrackTitle {
+    height: 50px;
+    width: 50px;
+    margin-right: 25px;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
+
+.musicPageTrackTitle img {
+    max-height:100%;
+    max-width:100%
+}

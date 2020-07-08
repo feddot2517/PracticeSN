@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+
+.dialogHead {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30pt;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.dialog {
+    cursor: pointer;
+    -webkit-border-radius: 23px;
+    border-radius: 23px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    width: 50%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20pt;
+    color: grey;
+}
+
+.dialog:hover {
+    -webkit-box-shadow: 0 0 2px 2px rgba(173,133,229,0.5) ;
+    box-shadow: 0 0 2px 2px rgba(173,133,229,0.5) ;
+    color: black;
+}
